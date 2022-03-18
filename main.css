@@ -113,7 +113,6 @@ img {
 
 .card-stat {
   text-align: center;
-  /* font-family: "Lexend Deca", sans-serif; */
   font-family: "Inter", sans-serif;
   padding: 0 0 2em 0;
   letter-spacing: 1px;
@@ -142,27 +141,37 @@ img {
     width: 900px;
   }
 
+  .card-image {
+    width: 100%;
+  }
+
   .card-content {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 4em;
   }
 
   .card-text {
+    padding: 2em;
     text-align: left;
+  }
+
+  .main-text {
+    letter-spacing: 0.5px;
   }
 
   .card-stats {
     flex-direction: row;
     width: 100%;
     align-items: center;
-    padding-top: 2em;
-    justify-content: space-around;
+    padding: 2em 0 0 2em;
+    justify-content: left;
   }
 
   .card-stat {
     text-align: left;
+    flex-grow: 1;
   }
 }
 
